@@ -1,0 +1,80 @@
+{
+  "ID": 570,
+  "Name": "Demon King Piccolo",
+  "Rarity": "SPARKING",
+  "Chara_sorter_Tag": "DBL-EVT-73S",
+  "Chara_Tags": [
+    "Regeneration",
+    "Namekian",
+    "Powerful Opponent",
+    "Event Exclusive",
+    "DB",
+    "Unknown",
+    "SPARKING",
+    "Ranged Type",
+    "GRN",
+    "Dragon Ball Saga",
+    "Demon King Piccolo",
+    "Healer"
+  ],
+  "Base_Stats": {
+    "POWER": 9990,
+    "HEALTH": 24110,
+    "STRIKE ATK": 2450,
+    "STRIKE DEF": 1660,
+    "BLAST ATK": 2550,
+    "BLAST DEF": 1680
+  },
+  "Main_Ability": {
+    "Overflowing Vitality": {
+      "Effect": [
+        "Restores own health by 30% and Ki by 30",
+        "+20% to damage inflicted for 50 timer counts",
+        "Restores own Vanishing Gauge by 100%",
+        "-10 to own Strike & Blast Arts costs for 50 timer counts",
+        "Increases own Dragon Balls by 1"
+      ],
+      "Requirements": "15 timer counts must elapse"
+    }
+  },
+  "Unique_Ability": {
+    "World Domination Commences": {
+      "Start of Battle Effect": [
+        "+90% to damage inflicted (cannot be canceled)",
+        "Reduces damage received by 65% (cannot be canceled)",
+        "Increases Arts Card Draw Speed by 1 level (cannot be canceled)",
+        "+50% to Ki Recovery (cannot be canceled)"
+      ],
+      "Entering the Battlefield Effect": [
+        "Draw a Blast Arts Card next",
+        "Restores Ki by 30",
+        "+70% to damage inflicted (cannot be canceled) (cannot be stacked)"
+      ],
+      "Effect after Allied Attack": [
+        "Randomly draws at most 2 new cards when you have 3 or fewer cards (activates four times)",
+        "Restores own Ki by 30 (activates four times)",
+        "Shortens allies' substitution counts by 2 (activates twice)",
+        "+10% to Special Move, Ultimate, and Awakened damage inflicted by allies (cannot be canceled) (activates twice)",
+        "+10% to damage inflicted by allied 'Tag: DB', 'Tag: Regeneration', or 'Tag: Event Exclusive' (cannot be canceled) (activates twice)"
+      ],
+      "Terrifying Presence": "Shortens own substitution count by 2 as default",
+      "Effect when Enemy Switches Characters": [
+        "Restores own health by 5%",
+        "Nullifies own unfavorable Element factors for damage sustained for 5 timer counts (activates seven times)",
+        "Reduces enemy Ki by 15",
+        "Inflicts enemy with Attribute Downgrade '+10 to all Arts costs' for 10 timer counts",
+        "Inflicts all enemies with Attribute Downgrade '+15% to Damage Received' for 15 timer counts"
+      ],
+      "Effect when Enemy Performs Cover Change": [
+        "Restores own Ki by 30",
+        "Randomly draws at most 2 new cards when you have 3 or fewer cards",
+        "Shortens allies' substitution counts by 2 (activates three times)"
+      ],
+      "Effect when Enemy Uses Special Move or Special Arts Card": [
+        "Applies Attribute Upgrade 'Shortens substitution count by 3' to self (cannot be stacked)",
+        "Effect resets after character switch",
+        "Reduces enemy's Dragon Balls by 1 (activates twice)"
+      ]
+    }
+  }
+}
