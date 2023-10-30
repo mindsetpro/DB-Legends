@@ -1,0 +1,116 @@
+{
+  "ID": 572,
+  "Name": "Super Janemba",
+  "Rarity": "ULTRA",
+  "Chara_sorter_Tag": "DBL64-01U",
+  "Chara_Tags": [
+    "Transforming Warrior",
+    "Regeneration",
+    "Powerful Opponent",
+    "Unknown",
+    "ULTRA",
+    "Melee Type",
+    "BLU",
+    "Sagas From the Movies",
+    "Janemba",
+    "Assault",
+    "Armored",
+    "Strike Arts",
+    "Healer",
+    "Fast Draw (Multi)",
+    "Ultimate Arts",
+    "Special Cover Change (Blast)",
+    "Special Cover Change Nullification",
+    "Unfavorable Element Factor Nullification",
+    "Unique Gauge"
+  ],
+  "Base_stats": {
+    "POWER": 10550,
+    "HEALTH": 25950,
+    "STRIKE ATK": 2720,
+    "STRIKE DEF": 1730,
+    "BLAST ATK": 2590,
+    "BLAST DEF": 1730
+  },
+  "Ultra_Abil": {
+    "Resonance of Force (Regeneration)": {
+      "Leader Effect": {
+        "Effect": [
+          "+30% to damage inflicted (cannot be canceled)",
+          "+30% to Ki Recovery (cannot be canceled)"
+        ],
+        "Requirements": "This character is the Leader"
+      },
+      "Battle/Support Member Effect": {
+        "Effect": [
+          "+5% to damage inflicted (cannot be canceled)",
+          "+5% to Ki Recovery (cannot be canceled)"
+        ],
+        "Requirements": "This character is not the Leader, applies to up to 3 'Tag: Regeneration' members"
+      }
+    }
+  },
+  "Main_Abil": {
+    "Wave of Pure Evil": {
+      "Effect": "Draw the Ultimate Arts Card 'Needle Light Shockwave' next. Restores own health by 30% and Ki by 50. Cancels own Attribute Downgrades and Abnormal Conditions. Applies Attribute Upgrade '-30% to enemy's 'Sustained Damage CUT' effects' to self for 10 timer counts. Destroys all of your enemy's cards.",
+      "Requirements": "25 timer counts must elapse"
+    }
+  },
+  "Unique_Abil": {
+    "Menace of Pure Evil": {
+      "Start of Battle Effect": [
+        "Charges Unique Gauge by 100%",
+        "+150% to damage inflicted (cannot be canceled)",
+        "Reduces damage received by 70% (cannot be canceled)",
+        "Increases Arts Card Draw Speed by 1 level (cannot be canceled)",
+        "-5 to Arts costs (cannot be canceled)",
+        "Gradually restores health each timer count (cannot be canceled)",
+        "Applies Buff Effect 'Nullifies enemy's 'Reduce Ki' effects' for 60 timer counts."
+      ],
+      "Entering the Battlefield Effect": {
+        "Effect": [
+          "Randomly draws 1 new card when you have 3 or fewer cards",
+          "Restores own Ki by 30",
+          "Inflicts all enemies with Attribute Downgrade '+15% to Damage Received' for 15 timer counts",
+          "Inflicts all enemies with Attribute Downgrade '+5 to Strike & Blast Arts costs' for 15 timer counts",
+          "Inflicts all enemies with Attribute Downgrade '+10 to Special & Special Move Arts costs' for 15 timer counts (activates once)",
+          "Inflicts all enemies with Attribute Downgrade '-30% to Health Restoration' for 15 timer counts"
+        ]
+      },
+      "Effect with Defeated Battle Member": {
+        "Effect": [
+          "Charges Unique Gauge by 100% (activates once)",
+          "Randomly draws 1 new card when you have 3 or fewer cards",
+          "Nullifies unfavorable Element factors for 5 timer counts"
+        ]
+      },
+      "Effect on Using Strike or Blast Arts Card": {
+        "Effect": [
+          "Restores health by 3%",
+          "Restores Ki by 10",
+          "+20% to damage inflicted for 10 timer counts",
+          "Applies Buff Effect 'Nullifies enemy's special actions that activate when changing cover' for 5 timer counts (activates once)",
+          "Activation count resets after character switch"
+        ]
+      }
+    }
+  },
+  "Vortex_of_Pure_Evil": {
+    "Effect": "Knocks enemy back to long range if a cover change is performed against their Blast Arts attack (activates during assists).",
+    "Comboable_Arts": ["Special Move Arts"],
+    "Unique_Gauge_Effect": "Gradually charges own Unique Gauge over time while this character is on the battlefield or on standby. Consumes entire Unique Gauge to counter enemy Strike Arts and most forward-charging and other Special Move & Special Arts (activates three times) when certain conditions are met. Own Unique Gauge will disappear after counter activates three times.",
+    "Counter_Effect": [
+      "Randomly destroys one of your own cards and draws the Ultimate Arts Card 'Needle Light Shockwave' next (activates once)",
+      "Restores health by 20%",
+      "Restores Ki by 50",
+      "Restores Vanishing Gauge by 100%",
+      "Nullifies unfavorable Element factors for damage sustained for 15 timer counts",
+      "Increases Arts Card Draw Speed by 1 level for 15 timer counts"
+    ],
+    "Ultimate Arts Counter Effect": [
+      "Restores ally health by 10% (activates once)",
+      "Shortens allies' substitution counts by 10",
+      "Cancels enemy's Attribute Upgrades & Buff Effects (activates once)"
+    ]
+  }
+}
