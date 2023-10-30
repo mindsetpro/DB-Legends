@@ -1,0 +1,102 @@
+{
+  "ID": 569,
+  "Name": "Piccolo Jr.",
+  "Rarity": "SPARKING",
+  "Chara_sorter_Tag": "DBL63-05S",
+  "Chara_Tags": [
+    "Regeneration",
+    "Namekian",
+    "Powerful Opponent",
+    "DB",
+    "Unknown",
+    "SPARKING",
+    "Ranged Type",
+    "RED",
+    "Dragon Ball Saga",
+    "Piccolo",
+    "Strike Back",
+    "Rising Power",
+    "Healer",
+    "Fast Draw (Multi)",
+    "Ultimate Arts",
+    "Special Cover Change (Strike)",
+    "Special Cover Change Nullification",
+    "Unfavorable Element Factor Nullification"
+  ],
+  "Base_Stats": {
+    "POWER": 10060,
+    "HEALTH": 24790,
+    "STRIKE ATK": 2470,
+    "STRIKE DEF": 1700,
+    "BLAST ATK": 2510,
+    "BLAST DEF": 1670
+  },
+  "Main_Ability": {
+    "You should be careful what you ask for!": {
+      "Effect": [
+        "Draw the Ultimate Arts Card 'Demon Ray Barrage' next",
+        "Restores own health by 20% and Ki by 50",
+        "Restores allies other than this character's health by 10%",
+        "Nullifies own unfavorable Element factors for 30 timer counts"
+      ],
+      "Requirements": "25 timer counts must elapse"
+    }
+  },
+  "Unique_Ability": {
+    "A Monstrous Return": {
+      "Start of Battle Effect": [
+        "+90% to damage inflicted (cannot be canceled)",
+        "Reduces damage received by 65% (cannot be canceled)",
+        "+50% to Ki Recovery (cannot be canceled)",
+        "Increases Arts Card Draw Speed by 1 level (cannot be canceled)",
+        "-3 to Arts costs (cannot be canceled)",
+        "+20% to Health Restoration (cannot be canceled)"
+      ],
+      "Entering the Battlefield Effect": [
+        "Restores own Ki by 25",
+        "+70% to damage inflicted (cannot be stacked) (cannot be canceled)",
+        "Reduces enemy Ki by 20",
+        "Inflicts enemy with Attribute Downgrade '-10% to Strike, Blast & Special Move Arts Power' for 15 timer counts"
+      ],
+      "Effect on 'Tag: Saiyan' Enemy": [
+        "Seals Strike Arts. The sealed Arts cannot be used for 3 timer counts (activates five times)",
+        "Cancels Attribute Upgrades (activates once)"
+      ],
+      "Effect on Using Strike or Blast Arts": [
+        "Restores health by 3%",
+        "Restores Ki by 5"
+      ],
+      "Effect with Elapsed Timer Counts": [
+        "3 counts elapsed: +30% to damage inflicted (cannot be canceled)",
+        "5 counts elapsed: Increases Arts Card Draw Speed by 1 level (cannot be canceled)",
+        "8 counts elapsed: Applies Attribute Upgrade '-30% to enemy's 'Sustained Damage CUT' effects' to self (cannot be canceled)"
+      ],
+      "The Demon King's Successor": {
+        "Change Cover Effect": [
+          "Nullifies own unfavorable Element factors for damage sustained for 5 timer counts (activates three times)",
+          "Restores ally health by 5% (activates three times)",
+          "Reduces enemy Ki by 20 (activates three times)"
+        ],
+        "Effect when Enemy Performs Vanishing Step": [
+          "+15% to damage inflicted for 15 timer counts",
+          "Increases own Dragon Balls by 1 (activates once)",
+          "Inflicts all enemies with Attribute Downgrade '-1 Arts Card Draw Speed level' for 5 timer counts"
+        ],
+        "Effect when Hit by Enemy's Arts Attack": [
+          "Shortens allies' substitution counts by 2 (activates once)",
+          "Activation count resets after character switch",
+          "Reduces enemy's Dragon Balls by 1 (activates once)"
+        ],
+        "Effect with Remaining Health 70% or Below": [
+          "Restores allied 'Tag: Regeneration', 'Tag: DB', or 'Tag: Powerful Opponent' health by 10%",
+          "+20% to damage inflicted by allied 'Tag: Regeneration', 'Tag: DB', or 'Tag: Powerful Opponent' (cannot be canceled)",
+          "Reduces enemy's Dragon Balls by 1"
+        ],
+        "Effect when Enemy Activates Rising Rush": [
+          "Shortens allies' substitution counts by 10",
+          "Cancels enemy Buff Effects"
+        ]
+      }
+    }
+  }
+}
