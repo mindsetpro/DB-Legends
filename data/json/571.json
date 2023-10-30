@@ -1,0 +1,81 @@
+{
+  "ID": 571,
+  "Name": "Hero Tapion",
+  "Rarity": "SPARKING",
+  "Chara_sorter_Tag": "DBL-EVT-74S",
+  "Chara_Tags": [
+    "Event Exclusive",
+    "Male",
+    "SPARKING",
+    "Defense Type",
+    "PUR",
+    "Sagas From the Movies",
+    "Tapion",
+    "Strike Back",
+    "Assault",
+    "Special Cover Change Nullification"
+  ],
+  "Base_stats": {
+    "POWER": 9980,
+    "HEALTH": 24540,
+    "STRIKE ATK": 2510,
+    "STRIKE DEF": 1710,
+    "BLAST ATK": 2370,
+    "BLAST DEF": 1700
+  },
+  "Main_Ability": {
+    "Legendary Sword": {
+      "Effect": [
+        "Restores own Ki by 50",
+        "+30% to damage inflicted for 20 timer counts",
+        "+30% to Strike damage inflicted for 20 timer counts",
+        "-5 to own Strike & Blast Arts costs for 20 timer counts",
+        "Applies Buff Effect 'Nullifies enemy's special actions that activate when changing cover' to self for 20 timer counts"
+      ],
+      "Requirements": "20 timer counts must elapse"
+    }
+  },
+  "Unique_Ability": {
+    "Hidden Menace": {
+      "Default Effect": "Shortens own substitution count by 2",
+      "Start of Battle Effect": [
+        "+80% to damage inflicted (cannot be canceled)",
+        "+20% to Strike damage inflicted (cannot be canceled)",
+        "Reduces damage received by 65% (cannot be canceled)",
+        "+50% to Ki Recovery (cannot be canceled)",
+        "-5 to Strike & Blast Arts costs (cannot be canceled)"
+      ],
+      "Entering the Battlefield Effect": [
+        "Restores Ki by 20",
+        "+40% to damage inflicted for 15 timer counts",
+        "Increases Arts Card Draw Speed by 1 level for 15 timer counts"
+      ],
+      "Effect with 3 Battle Members Remaining": [
+        "Reduces enemy Ki by 10",
+        "Inflicts all enemies with Attribute Downgrade '+5 to Strike & Blast Arts costs' for 5 timer counts"
+      ],
+      "Effect when Enemy Activates Rising Rush": "Shortens own substitution count by 5",
+      "Crystal Clear Flute Melody": {
+        "Change Cover Effect": [
+          "Draw a Special Arts Card next (activates once)",
+          "Randomly destroys 1 enemy card",
+          "Inflicts enemy with Attribute Downgrade '-20% to Ki Recovery' for 15 timer counts",
+          "Cancels enemy's Attribute Upgrades & Buff Effects (activates three times)"
+        ],
+        "Effect when Hit by Enemy's Arts Attack": [
+          "Restores own health by 3% (activates eight times)",
+          "+20% to damage inflicted for 15 timer counts",
+          "Inflicts all enemies with Attribute Downgrade '+5 to Strike & Blast Arts costs' for 5 timer counts"
+        ],
+        "Effect when Health is 50% or Below": [
+          "Restores health by 30% and Ki by 30",
+          "+50% to damage inflicted (cannot be canceled)"
+        ],
+        "Effect when Using Strike or Blast Arts with Enemy Inflicted with Bleed": [
+          "Restores Ki by 10",
+          "+10% to damage inflicted for 10 timer counts"
+        ]
+      }
+    }
+  }
+}
